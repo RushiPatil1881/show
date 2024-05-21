@@ -6,7 +6,7 @@ pipeline {
     stage("Clone code from GitHub") {
             steps {
                 script {
-                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GITHUB_CRD', url: ''https://github.com/RushiPatil1881/show.git]])
+                    checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'GITHUB_CRD', url: 'https://github.com/RushiPatil1881/show.git']])
                 }
             }
         }
