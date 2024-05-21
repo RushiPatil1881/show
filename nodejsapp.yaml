@@ -29,11 +29,10 @@ metadata:
 spec:
   selector:
     app: nodejs-app
-  type: ClusterIP
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 80
       targetPort: 80
-  externalIPs:
-    - 203.0.113.10  # Replace this with your desired IP address
+  
 
