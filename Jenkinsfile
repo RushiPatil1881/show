@@ -1,6 +1,3 @@
-
-# jenkins auomate pipeline after pusing into github
-
 pipeline {
   agent any
    tools {nodejs "node"}    
